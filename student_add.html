@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>student form</title>
+        <link rel="stylesheet" href="student_add.css">
+        <script src="add_student.js"></script>
+
+    </head>
+
+    <body>
+    
+           
+        <form action="addStudent.php" method="POST" onsubmit="return validateForm()">
+            <h1 >Add Student</h1>
+                <label for="prn">PRN:</label>
+                <input type="text" name="prn"  required>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name"  required>
+                
+                <label for="pass">password:</label>
+                <input type="pass" name="pass"  required>     
+                <button type="submit">Add</button>
+            </form>
+        
+    </body>
+</html>

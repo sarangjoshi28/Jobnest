@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>student form</title>
+        <link rel="stylesheet" href="post_intrenship.css">
+        <script src="PostInternship.js" defer></script>
+
+    </head>
+
+    <body>
+        <div class="back-button" onclick="location.href='teacher_home.html'">&larr; Back</div>
+           
+        <form action="PostInternship.php" method="post" onsubmit="return validateForm()">
+            <h1 >Post Intrenship</h1>
+                
+
+                <label for="name">Intrenship Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+
+                <label for="duration">Duration (in months):</label>
+                <input type="number" id="duration" name="duration" >
+
+                <div id="durationError" class="error"></div>
+
+                <label for="stipend">Stipend (INR):</label>
+                <input type="number" id="stipend" name="stipend" >
+                <div id="stipendError" class="error"></div>
+
+                <button type="submit">Post Intrenship</button>
+            </form>
+        
+    </body>
+</html>

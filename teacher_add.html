@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Form</title>
+    <link rel="stylesheet" href="student_add.css"> 
+    <script src="add_teacher.js" defer></script>  
+</head>
+<body>
+    <form action="addTeacher.php" method="POST" onsubmit="return validateForm()">
+        <h1>Add Teacher</h1>
+
+        <label for="teacher_id">Teacher ID:</label>
+        <input type="text" name="teacher_id" id="teacher_id" required>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

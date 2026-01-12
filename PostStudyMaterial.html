@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Study Material</title>
+    <link rel="stylesheet" href="postStudyMaterial.css">
+    <script src="postStudyMaterial.js" defer></script>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <a href="teacher_home.html"><button>← Back</button></a>
+
+    <!-- Main Content Container -->
+    <div class="main-content">
+        <h2>Post Study Material</h2>
+        <form action="PostStudyMaterial.php" method="post" enctype="multipart/form-data" onsubmit="return validateMaterialForm()">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <label for="pdfFile">Upload PDF File:</label>
+            <input type="file" id="pdfFile" name="pdfFile" accept="application/pdf" required>
+
+            <input type="submit" value="Post Material">
+        </form>
+    </div>
+
+</body>
+</html>

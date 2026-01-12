@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JobNest - Overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Reset & Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e40af, #2563eb);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            animation: slideIn 1s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #1e3a8a;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .feature p {
+            font-size: 16px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #1e3a8a;
+            color: #f9fafb;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* Responsive Text */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .feature h3 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to JobNest</h1>
+        <p>Your Campus Placement Companion</p>
+    </header>
+
+    <div class="container">
+        <h2>About JobNest</h2>
+        <p>JobNest is a comprehensive placement cell portal built to connect students, teachers, and recruiters in one unified platform. With features tailored for every user, JobNest makes campus hiring smarter, smoother, and simpler.</p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🎓 For Students</h3>
+                <p>Update your profile, add skills & projects, and apply to jobs or internships with ease. Track your progress in real-time.</p>
+            </div>
+            <div class="feature">
+                <h3>🏢 For Companies</h3>
+                <p>Post job opportunities, filter candidates based on criteria, and select top talent directly from the portal.</p>
+            </div>
+            <div class="feature">
+                <h3>👨‍🏫 For Teachers</h3>
+                <p>Monitor student performance, view applications, and help students land better opportunities.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Analytics</h3>
+                <p>Get placement stats, student insights, and application data through an interactive dashboard.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 JobNest Placement Cell. Crafted with care 💙
+    </footer>
+
+</body>
+</html>

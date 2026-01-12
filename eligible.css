@@ -1,0 +1,116 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+    font-size: 28px;
+}
+
+/* Table styling */
+.applications-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.applications-table th,
+.applications-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.applications-table th {
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+}
+
+.applications-table td {
+    font-size: 16px;
+}
+
+/* Hover effect for rows */
+.applications-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Form input styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Style for update button */
+form input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Select dropdown styles */
+form select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .applications-table th, .applications-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    form input[type="submit"], form select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .applications-table th, .applications-table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    form input[type="submit"], form select {
+        font-size: 14px;
+    }
+}
