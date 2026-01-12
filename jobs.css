@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+}
+
+.job-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.job-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+    transform: scale(1.02);
+}
+
+.job-card h2 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.job-card p {
+    color: #374151;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 15px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+@media screen and (max-width: 600px) {
+    .job-card {
+        width: 90%;
+    }
+}

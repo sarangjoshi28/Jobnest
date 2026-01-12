@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>student form</title>
+        <link rel="stylesheet" href="student_remove.css">
+        <script src="remove-student.html" ></script>
+
+    </head>
+
+    <body>
+    
+           
+        <form method="post" action="removeStudent.php" id="removeForm" onsubmit="return validateRemoveForm()">
+            <h1 >Remove Student</h1>
+                <label for="prn">PRN:</label>
+                <input type="text" id="prn" name="prn"  required>
+                <button type="submit">Remove</button>
+            </form>
+        
+    </body>
+</html>

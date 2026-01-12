@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placed Students</title>
+  <link rel="stylesheet" href="placedstudent.css">
+  <script src="placedStudents.js" defer></script>
+</head>
+<body>
+  <div style="padding: 20px;">
+    <a href="teacher_home.html">
+      <button>← Back</button>
+    </a>
+  </div>
+
+  <div class="main-content">
+    <h2>Placed Students</h2>
+    
+    <table id="studentsTable">
+      <thead>
+        <tr>
+          <th>PRN</th>
+          <th>Student Name</th>
+          <th>Year</th>
+          <th>Company Name</th>  
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <div id="studentDetails" style="display:none">
+      <h3>Student Details</h3>
+      <p><strong>PRN:</strong> <span id="studentPRN"></span></p>
+      <p><strong>Name:</strong> <span id="studentName"></span></p>
+      <p><strong>Year:</strong> <span id="studentYear"></span></p>
+      <p><strong>Company:</strong> <span id="studentCompany"></span></p>
+    </div>
+  </div>
+</body>
+</html>

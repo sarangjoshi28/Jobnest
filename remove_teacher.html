@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Teacher</title>
+    <link rel="stylesheet" href="student_add.css">
+    <script src="remove_teacher.js" defer></script>
+</head>
+<body>
+
+    <form action="removeTeacher.php" method="POST" onsubmit="return validateForm()">
+        <h1>Remove Teacher</h1>
+
+        <label for="teacher_name">Teacher Name:</label>
+        <input type="text" name="teacher_name" id="teacher_name" required>
+
+        <button type="submit">Remove</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 35px;
+    font-size: 32px; /* Increased font size */
+}
+
+.status-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fdfdfd;
+    transition: box-shadow 0.3s ease;
+}
+
+.status-card:hover {
+    box-shadow: 0 0 15px rgba(0, 51, 102, 0.2);
+}
+
+.status-card p {
+    margin: 12px 0;
+    font-size: 18px; /* Increased font size */
+    color: #333;
+}
+
+.status-card p strong {
+    color: #003366;
+}
+
+.no-data {
+    text-align: center;
+    font-size: 20px; /* Increased font size */
+    color: #777;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .status-card p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}

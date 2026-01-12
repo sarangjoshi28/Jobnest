@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -39,5 +40,21 @@ if ($sql->num_rows > 0) {
 }
 
 $sql->close();
+=======
+include "config.php"; 
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+$sql = "SELECT * FROM adminlogin WHERE email = '$username' AND password = '$password'";
+$result = $con->query($sql);
+
+if ($result->num_rows == 1) {
+    echo "<script>alert(' Login successfully!'); window.location.href='admin_home.html';</script>";
+} else {
+    echo "<script>alert(' unsuccessfully!'); window.location.href='admin_login.html';</script>";
+}
+
+>>>>>>> 6258e3094fca255de842bc7662761dee713d5bd2
 $con->close();
 ?>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Company Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="company_home.css">
+    <!-- library for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- this is full body -->
+        <div id="main1">
+            <!-- this is side menu blue box -->
+            <div id="menubar">
+                <div id="icon">
+                    <img src="jobnest_logo.png" id="logo-img" />
+                    <span id="logo-text">JobNest</span>
+                </div>
+                <ul>
+                    <li><a class="menu-option" href="post_job.html">Post Jobs</a></li>
+                    <li><a class="menu-option" href="eligible.php">Eligible Students</a></li>
+                    <li><a class="menu-option" href="update_status.php">Update Status</a></li>
+                    <li><a class="menu-option" href="authentication.html">Logout</a></li>
+                </ul>
+            </div>
+
+            <!-- content div -->
+            <div id="content">
+                <!-- this is search bar -->
+                <div class="searchJob">
+                    <!-- icon on right -->
+                    <div style="text-align: right; width: 100%; display: inline-block;">
+                        <button style="font-size: 40px; border: none;  background: none; cursor: pointer;">
+                            <i class="far fa-user-circle"></i>
+                        </button>
+                    </div>
+
+                    <div>
+                        <h1 class="h1">Welcome to Company Dashboard</h1>
+                        <br>
+                    </div>
+                    <div>
+                        <p>Manage job postings, view student applications, and update placement status</p>
+                        <br>
+                    </div>
+                </div>
+
+                <!-- example job posts -->
+                <div id="adv">
+                    <div class="advblock">
+                        <h1>UI/UX Designer</h1>
+                        <p><b>Location</b>: Bangalore</p>
+                        <br>
+                        <p>Looking for a creative UI/UX Designer with experience in designing user-friendly web and mobile apps.</p>
+                        <button class="b1">View Applications</button>
+                    </div>
+
+                    <div class="advblock">
+                        <h1>Backend Developer</h1>
+                        <p><b>Location</b>: Hyderabad</p>
+                        <br>
+                        <p>Seeking an experienced backend developer skilled in Node.js and MongoDB for scalable web apps.</p>
+                        <button class="b1">View Applications</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="minimal-footer">
+            <i class="fas fa-briefcase footer-icon"></i>
+            <span class="footer-text">Career Link</span>
+        </div>
+        <p class="footer-copy">&copy; 2025 Career Link. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
