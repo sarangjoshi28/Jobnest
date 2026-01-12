@@ -1,0 +1,167 @@
+#logo{
+    background-color:#154c87;
+    border-color:white;
+    border-style: solid;
+    border: none;
+    
+}
+
+#heading{
+    color:#ede8f5;
+    font-size:80px;
+}
+a{
+    color:#ede8f5;
+    text-decoration: none;
+}
+
+.body{
+    margin:0;
+}
+.d{
+    margin-left: 200px;
+    font-size: 20px;
+}
+.c{
+    margin-left: 180px;
+    font-size: 20px;
+}
+.b{
+    margin-left: 160px;
+    font-size: 20px;
+}
+.a{
+    margin-left: 140px;
+    font-size: 20px;
+}
+.searchJob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #ede8f5;
+    margin-top: 0px;
+    border:none;
+    height: 300px;
+}
+.searchBar{
+    font-size: 25px;
+
+}
+.button{
+    height:32px;
+    width:73px;
+    font-size: 20px;
+    background-color: #154c87;
+    border:none;
+    color:#ede8f5;
+}
+.button:hover{
+    opacity: 0.7;
+}
+.adv{
+    background-color: white;
+    height: 800px;
+    border:none;
+   
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    border:none;
+    height: 50px;
+    
+ 
+}
+.margin{
+    margin-top:0;
+    padding-top: 15px;
+}
+.a:hover{
+    opacity: 0.7;
+}
+.b:hover{
+    opacity: 0.7;
+}
+.c:hover{
+    opacity: 0.7;
+}
+.d:hover{
+    opacity: 0.7;
+   
+}
+#adv10{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+main{
+    height: 1000px;
+}
+
+
+#advhead{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+#adv1{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 25px;
+    border-radius: 10px;
+    
+}
+
+#adv2{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+#adv3{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+#b1{
+    background-color:#154c87;
+    color:white;
+    border-radius: 10px;
+}
+#b1:hover{
+    opacity: 0.7;
+   
+}
+
+#b2{
+    background-color:#154c87;
+    color:white;
+    border-radius: 10px;
+}
+#b2:hover{
+    opacity: 0.7;
+   
+}
+
+#b3{
+    background-color:#154c87;
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#b3:hover{
+    opacity: 0.7;
+   
+}

@@ -1,0 +1,75 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //margin-top: 270px;
+    padding-bottom: 50px;
+    margin:none;
+    
+}
+.p{
+    font-size: 20px;
+}
+.n{
+    font-size: 20px;
+}
+
+.q{
+    font-size: 20px;
+}
+.r{
+    font-size: 20px;
+}
+.s{
+    font-size: 20px;
+}
+.t{
+    font-size: 20px;
+}
+
+.student{
+    margin-left: 32px;
+}
+.name{
+    margin-left: 18px;
+}
+
+.postName{
+    margin-left: 56px;
+}
+.ten{
+    margin-left: 45px;
+}
+.diplo{
+    margin-left: 30px;
+}
+.cgpa{
+    margin-left: 85px;
+}
+.h1{
+    margin-left: 85px;
+}
+
+.border{
+    border:none;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 125px;
+    background-color: #ede8f5;
+}
+.sub{
+    margin-left: 130px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: #154c87;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(167, 167, 167);
+}
+.sub:hover{
+    opacity: 0.7;
+}
